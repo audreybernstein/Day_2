@@ -23,6 +23,7 @@ class Scholar {
 
     var personName : String
     var personGrade : Int
+    
     init(name : String, grade : Int) {
         personName = name
         personGrade = grade
@@ -53,7 +54,8 @@ class Scholar {
         }
         return "???"
 }
-var nycScholar  = Scholar(name : "Audrey", grade : 6)
+}
+var nycScholar = Scholar(name : "Audrey", grade : 6)
 nycScholar.description(location : "New York")
 
 //
